@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-181919:hover {
+    background-color: #181919
+}
+
+.text-gray {
+    color: rgb(113, 118, 123)
+}
+
+.bg-primary {
+    background-color: #111;
+}
+
+.bg-primary li:hover {
+    background-color: #333;
+}
+
+.menu ul li:hover {
+    background-color: #333;
+}
+
+.posts .kisisellestir div:hover {
+    background-color: #333;
+}
+
+p.line::before {
+    content: "";
+    display: inline-block;
+    background-color: rgb(113, 118, 123);
+    color: #fff;
+    margin: 0 10px;
+    padding: 0.5px 65px;
+}
+
+p.line::after {
+    content: "";
+    display: inline-block;
+    background-color: rgb(113, 118, 123);
+    color: #fff;
+    margin: 0 10px;
+    padding: 0.5px 65px;
+}
+::-webkit-scrollbar {
+    width: 0.5em;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  /* Hide the scrollbar for Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  /* Hide the scrollbar for Edge and IE */
+  *::-ms-scrollbar {
+    width: 0.5em;
+  }
+  *::-ms-scrollbar-thumb {
+    background-color: transparent;
+  }
